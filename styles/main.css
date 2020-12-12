@@ -745,7 +745,7 @@ body.no_scroll{
  }
 
  .section_2_text{
-   width: 500px;
+   width: 450px;
    margin-bottom: 25px;
  }
 
@@ -768,6 +768,10 @@ body.no_scroll{
    margin-bottom: 0;
  }
 
+ .blog_item_text {
+   width: 330px;
+ }
+
  .section_3_inner{
    padding-top: 42px;
    padding-bottom: 42px;
@@ -775,7 +779,7 @@ body.no_scroll{
  }
 
  .section_3_text{
-   width: 450 px;
+   width: 350px;
  }
 
  .section_3_menu{
@@ -792,7 +796,7 @@ body.no_scroll{
  }
 
  .img_block{
-   width: 93%;
+   width: 95%;
  }
 
  .section_4_inner{
@@ -802,7 +806,7 @@ body.no_scroll{
  }
 
  .section_4_text{
-   width: 500px;
+   width: 350px;
  }
 
  .portfolio_block{
@@ -826,24 +830,24 @@ body.no_scroll{
  }
 
  .footer_text{
-   width: 510px;
+   width: 355px;
  }
 
  input{
-   width: 400px;
+   width: 350px;
  }
 
  textarea{
-   width: 400px;
+   width: 350px;
  }
 
  button{
-   width: 400px;
+   width: 350px;
    text-align: center;
  }
 
  .apply_text{
-   width: 480px;
+   width: 350px;
  }
 
  .apply{
