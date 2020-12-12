@@ -520,7 +520,6 @@ button{
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
   margin: auto;
   height: 0;
   z-index: 1;
@@ -564,7 +563,7 @@ body.no_scroll{
 }
 
 .mobile_menu_link:first-child{
-  margin-top: 300px;
+  margin-top: 250px;
 }
 
 .mobile_menu.fixed{
@@ -698,13 +697,13 @@ body.no_scroll{
   margin-bottom: 0;
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:576px) {
 
  .container{
    width: 100%;
    padding-left: 15px;
    padding-right: 15px;
-   max-width: 400px;
+   max-width: 576px;
 }  
 
  .header_right{
@@ -741,12 +740,12 @@ body.no_scroll{
  }
 
  .section_1_inner{
-   justify-content: space-evenly;
+   justify-content: space-around;
    width: 92%;
  }
 
  .section_2_text{
-   width: 314px;
+   width: 500px;
    margin-bottom: 25px;
  }
 
@@ -761,9 +760,8 @@ body.no_scroll{
  }
 
  .blog_item{
-   width: 80%;
-   margin-right: auto;
-   margin-bottom: 15px;
+   width: 90%;
+   margin-bottom: 25px;
  }
 
  .blog_item:last-child{
@@ -777,7 +775,7 @@ body.no_scroll{
  }
 
  .section_3_text{
-   width: 315px;
+   width: 450 px;
  }
 
  .section_3_menu{
@@ -785,16 +783,16 @@ body.no_scroll{
  }
 
  .section_3_nav{
-   margin-right: 20px;
+   margin-right: 40px;
  }
 
  .img_block img{
-   height: 128px;
-   width: 48%;
+    height: 150px;
+    width: 48%;
  }
 
  .img_block{
-   width: 88%;
+   width: 93%;
  }
 
  .section_4_inner{
@@ -804,7 +802,7 @@ body.no_scroll{
  }
 
  .section_4_text{
-   width: 300px;
+   width: 500px;
  }
 
  .portfolio_block{
@@ -814,6 +812,7 @@ body.no_scroll{
    width: 300px;
    margin-right: auto;
    margin-bottom: 34px;
+   margin-left: auto;
  }
 
  .portfolio:last-child{
@@ -827,20 +826,24 @@ body.no_scroll{
  }
 
  .footer_text{
-   width: 310px;
+   width: 510px;
  }
 
  input{
-   width: 310px;
+   width: 400px;
  }
 
  textarea{
-   width: 310px;
+   width: 400px;
  }
 
  button{
-   width: 310px;
+   width: 400px;
    text-align: center;
+ }
+
+ .apply_text{
+   width: 480px;
  }
 
  .apply{
@@ -858,6 +861,12 @@ body.no_scroll{
  .footer_navigation{
    margin-left: auto;
    margin-right: auto;
+ }
+
+ .footer_out_inner{
+   padding-top: 22px;
+   padding-bottom: 22px;
+   width: 80%;
  }
 
 

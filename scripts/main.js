@@ -6,10 +6,9 @@ var mobileMenu = document.querySelector('#mobile_menu');
 burgerButton.addEventListener('click', function(e) {
   e.preventDefault();
 
-  this.classList.toggle('opened');
+ this.classList.toggle('opened');
   overlay.classList.toggle('visible');
   body.classList.toggle('no_scroll');
   mobileMenu.classList.toggle('fixed');
 }
-
-);
+)
