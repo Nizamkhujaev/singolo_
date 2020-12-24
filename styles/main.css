@@ -553,6 +553,9 @@ body.no_scroll{
   transition: all ease 0.5s;
   padding: 0 0 0 71px; 
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .mobile_menu_link{
@@ -562,9 +565,9 @@ body.no_scroll{
   text-align: left;
 }
 
-.mobile_menu_link:first-child{
+/* .mobile_menu_link:first-child{
   margin-top: 370px;
-}
+} */
 
 .mobile_menu.fixed{
   width: 278px;
